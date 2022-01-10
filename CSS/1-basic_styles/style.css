@@ -1,0 +1,33 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 100%;
+}
+
+header, button, article, div{
+    padding: 2.5vw;
+}
+
+img {
+    border-style: solid;
+    border-width: 1vw;
+    border-color: black;
+}
+
+header
+{
+    background-color: lightblue;
+    height: 40vh;
+}
+
+button{
+    border-width: 10px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    width: 45vw;
+    cursor: pointer;
+}
