@@ -1,2 +1,2 @@
-# BasicCSSJSExercices
-Coletânea de exercícios paraa aprender CSS e JS.
+# BasicCSSJSExercises
+Coletânea de exercícios para aprender CSS e JS.
