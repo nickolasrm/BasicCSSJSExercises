@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 100%;
+}
+
+header, article, div, aside{
+    padding: 5vw;
+}
+
+header{
+    background-color: lightgreen;
+}
+
+button{
+    border-width: 10px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    width: 30vw;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-flow: row;
+}
+
+/* Este aside pode precisar ser mais específico caso haja outro aside
+    Classes seriam mais apropriadas aqui
+*/
+aside > ul{
+    list-style: none;
+    padding: 0;
+}
+
+aside > ul > li{
+    color: black;
+    font-weight: bold;
+    white-space: nowrap;
+    padding: 2vh;
+    background-color: rgb(240,240,240);
+}
+
+aside > ul > li > a{
+    color: black;
+    text-decoration: none;
+}
+
+aside > ul > li:nth-child(2n+1){
+    background-color: lightgray;
+}
+
+/* Este nav pode precisar ser mais específico caso haja outro aside
+    Classes seriam mais apropriadas aqui
+*/
+nav > a{
+    color: black;
+    padding: 1vh;
+}
+
+/* Resolve o problema, mas # seria melhor, pois ali só indica a pagina
+selecionada e não que é o primeiro
+*/
+nav > a:first-child{
+    color: white;
+    background-color: black;
+}
+
+nav > a:hover,
+aside > ul > li:hover{
+    background-color:white;
+    color: black;
+}
+
+article > h2:first-child{
+    font-size: 5rem;
+    margin-top: 0;
+}
